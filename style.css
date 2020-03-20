@@ -1,0 +1,149 @@
+/*  bagian body  */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100px;
+    background-color: aquamarine;
+    background-image: linear-gradient(-90deg, aquamarine, rgb(25, 146, 106));
+    margin: 0px;
+}    /*  bagian header  */
+.header {
+    overflow: hidden;
+    background-color: rgb(60, 255, 190);
+    padding: 8px 4px;
+}.header a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 12px;
+    line-height: 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+}.header a.logo {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}.menu-kanan {
+    float: right;
+}.column {
+    float: left;
+    margin-left: 215px;
+    width: 25%;
+    padding: 0 10px;
+  }  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);ss
+    text-align: center;
+    background-color: rgb(43, 255, 184);
+    
+  }.produk {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 18px;
+    
+  }.price {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: serif;
+  }
+  p {
+    text-decoration: none;
+  }  .produk button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+  }h1 {
+    font-size: 18px;
+  }
+  .produk button:hover {
+    opacity: 0.7;
+    transition: ease-in;
+  }.produk-card {
+    background-color: blue;
+    padding-top : 100px;
+    padding-bottom : 100px;
+    margin-right : 100px;
+    margin-left : 100px;
+    text-align : center;
+    background-color: rgb(43, 255, 184);
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  }img.pwd {
+    width: 350px;
+    height: 400px;
+    float: left;
+    margin-top: -70px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+  }p.harga{
+    font-size: 40px;
+    font-family: sans-serif;
+  }.polos {
+    font-size: 40px;
+    font-family: sans-serif; 
+    font-size: 40px;
+  }.product {
+    overflow: hidden;
+    background-color: rgb(60, 255, 190);
+    padding: 30px 26px;
+    font-size: 50px;
+  }a.menu {
+    font-size: 30px;
+    float: right;
+  }a.pilih{
+    font-size: 30px;
+    text-align: right;
+  }.bola {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: sinline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 650px;
+    margin-right: 650px;
+    cursor: pointer;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: right;
+  }.kartu {
+    padding: 16px
+  }.adil{
+    
+  }p#demo {
+    margin-left: 650px;
+    margin-right: 650px;
+    font-size: 40px;
+  }.button{
+    font-size: 22px;
+  }
+
+
+
